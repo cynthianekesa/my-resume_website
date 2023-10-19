@@ -138,10 +138,21 @@ img {
 .nav__item {
   margin-bottom: var(--mb-4);
 }
+
+.nav__link {
+    text-decoration: none;
+}
+
 .nav__link {
   position: relative;
   color: #fff;
+  text-decoration: none;
 }
+
+.nav_link:visited {
+  text-decoration: none; /* Remove underline */
+}
+
 .nav__link:hover {
   position: relative;
 }
